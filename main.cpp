@@ -7,6 +7,8 @@ int main() {
     print(numbers);
     sort(numbers);
     print(numbers);
+    reverse(numbers);
+    print(numbers);
     
     return 0;
 }
