@@ -1,4 +1,4 @@
-#include "functions.hpp"
+#include "../inc/functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
 #include <iostream>
 
 void print(std::vector<int> const & numbers) {
