@@ -9,6 +9,7 @@ void print(std::vector<int> const & numbers) {
 =======
 #include "../inc/functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
 #include <iostream>
+#include <limits>
 
 void print(std::vector<int> const & numbers) {
     for (int i = 0; i < numbers.size(); ++i) {
@@ -23,6 +24,9 @@ void sort(std::vector<int> & unsorted) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 132390b... New function - min
 int min(std::vector<int> const & values) {
     int minimum = std::numeric_limits<int>::max();
     for (const auto & value : values) {
@@ -33,9 +37,12 @@ int min(std::vector<int> const & values) {
     return minimum;
 }
 
+<<<<<<< HEAD
 void reverse(std::vector<int> & data) {
     std::reverse(begin(data), end(data));
 }
 
 =======
 >>>>>>> a6c01ef... Better code layout
+=======
+>>>>>>> 132390b... New function - min
