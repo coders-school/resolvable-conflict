@@ -1,6 +1,6 @@
-#include "../inc/functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
+#include "functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
 #include <iostream>
-#include <limits>
+#include <algorithm>
 
 void print(std::vector<int> const & numbers) {
     for (int i = 0; i < numbers.size(); ++i) {
