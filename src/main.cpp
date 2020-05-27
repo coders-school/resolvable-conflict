@@ -8,7 +8,7 @@ int main() {
     sort(numbers);
     print(numbers);
     auto minimum = min(numbers);
-    std::cout << "Minimum: " << minimum << '\n';
+    std::cout << "Minimum: " << minimum << '\n' << '\n';
     reverse(numbers);
     print(numbers);
     
