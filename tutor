@@ -666,6 +666,18 @@ UWAGA: Wciśnięcie  v  zaczyna tryb Wizualny. Możesz poruszać kursorem, by
        z tekstem. Na przykład  d  usuwa tekst.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  1. Przenieś kursor do tego wiersza.
+
+  2. Wciśnij  v  i przenieś kursor do punktu 5. Zauważ, że tekst został
+     podświetlony.
+
+  3. Wciśnij znak  : . Na dole ekranu pojawi się  :'<,'> .
+
+  4. Wpisz  w TEST , gdzie TEST to nazwa pliku, który jeszcze nie istnieje.
+     Upewnij się, że widzisz  :'<,'>w TEST zanim wciśniesz Enter.
+
+  5. Vim zapisze wybrane linie do pliku TEST. Użyj  :!dir  lub  :!ls , żeby to
+     zobaczyć. Jeszcze go nie usuwaj! Użyjemy go w następnej lekcji.
 		   Lekcja 5.4.: WSTAWIANIE I ŁĄCZENIE PLIKÓW
 
 
@@ -688,6 +700,11 @@ UWAGA: Możesz też wczytać wyjście zewnętrznego polecenia. Na przykład
        kursora.
 
 
+Makefile
+TEST
+inc
+src
+tutor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			     LEKCJA 5. PODSUMOWANIE
 
@@ -726,10 +743,12 @@ UWAGA: Możesz też wczytać wyjście zewnętrznego polecenia. Na przykład
   3. Wpisz trochę tekstu i wciśnij <ESC> by wyjść z trybu Insert (wprowadzanie).
 
 ---> Po wciśnięciu  o  kursor znajdzie się w otwartej linii w trybie Insert.
+Nowa linia poniżej.
 
   4. By otworzyć linię POWYŻEJ kursora, wciśnij wielkie  O  zamiast małego
      o . Wypróbuj to na linii poniżej.
 
+Nowa linia powyżej.
 ---> Otwórz linię powyżej wciskając SHIFT-O gdy kursor będzie na tej linii.
 
 
@@ -752,7 +771,7 @@ UWAGA: Możesz też wczytać wyjście zewnętrznego polecenia. Na przykład
   5. Użyj  e  by przejść do kolejnego niedokończonego wyrazu i powtarzaj kroki
      3. i 4.
 
----> Ta li poz Ci ćwi dodaw teks do koń lin
+---> Ta linia pozwoli Ci ćwiczyć dodawanie tekstu do kocań linii.
 ---> Ta linia pozwoli Ci ćwiczyć dodawanie tekstu do końca linii.
 
 Uwaga:  a ,  i  oraz  A  prowadzą do trybu Insert, jedyną różnicą jest miejsce,
@@ -774,7 +793,7 @@ Uwaga:  a ,  i  oraz  A  prowadzą do trybu Insert, jedyną różnicą jest miej
 
   5. Powtarzaj kroki by wymienić wszystkie xxx.
 
----> Dodanie 123 do xxx daje xxx.
+---> Dodanie 123 do 456 daje 579.
 ---> Dodanie 123 do 456 daje 579.
 
 UWAGA: Tryb Replace jest jak tryb Insert, ale każdy znak usuwa istniejący
@@ -800,7 +819,7 @@ UWAGA: Tryb Replace jest jak tryb Insert, ale każdy znak usuwa istniejący
      końca następnej linii  j$  i upakuj tam tekst z  p .
 
 --->  a) to jest pierwszy element.
-      b)
+      b) to jest drugi element.
 Uwaga: możesz użyć  y  jako operatora;  yw  kopiuje jeden wyraz.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
