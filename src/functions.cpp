@@ -1,7 +1,7 @@
-#include "functions.hpp"
 #include <iostream>
 #include <limits>
 #include <algorithm>
+#include "functions.hpp"
 
 void print(std::vector<int> const & numbers) {
     for (size_t i = 0; i < numbers.size(); ++i) {
