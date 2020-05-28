@@ -23,4 +23,7 @@ int min(std::vector<int> const & values) {
     }
     return minimum;
 }
+void reverse(std::vector<int> & data) {
+    std::reverse(begin(data), end(data));
+}
 
