@@ -15,13 +15,8 @@ void sort(std::vector<int> & unsorted) {
 }
 
 int min(std::vector<int> const & values) {
-    auto minimum = std::numeric_limits<int>::max();
-    for (const auto& value : values) {
-        if (value < minimum) {
-            minimum = value;
-        }
-    }
-    return minimum;
+    auto result = std::min_element(std::begin(values), std::end(values));
+    return *result;
 }
 
 void reverse(std::vector<int> & data) {
