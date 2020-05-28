@@ -1,7 +1,9 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Werror
 LINKS = -Iinc/
+SRC = src/*.cpp
+INCLUDES = inc/*.hpp
 
-all: src/*.cpp inc/*.hpp
-	${CXX} ${LINKS} src/*.cpp ${CXXFLAGS} -o main
+all: ${SRC} ${INCLUDES}
+	${CXX} ${LINKS} ${SRC} ${CXXFLAGS} -o main
 
