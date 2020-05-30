@@ -1,4 +1,4 @@
-#include "../inc/functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
+#include "functions.hpp"  
 #include <algorithm>
 #include <iostream>
 #include <limits>
@@ -24,3 +24,6 @@ int min(std::vector<int> const & values) {
     return minimum;
 }
 
+void reverse(std::vector<int> & data) {
+    std::reverse(begin(data), end(data));
+}
