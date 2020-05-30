@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <iostream>
 #include <limits>
-#include <algorithm>
 
 void print(std::vector<int> const & numbers) {
     for (size_t i = 0; i < numbers.size(); ++i) {
