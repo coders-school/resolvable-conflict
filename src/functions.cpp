@@ -4,7 +4,7 @@
 #include <limits>
 
 void print(std::vector<int> const & numbers) {
-    for (unsigned int i = 0; i < numbers.size(); ++i) {
+    for (size_t i = 0; i < numbers.size(); ++i) {
         std::cout << i << ": " << numbers[i] << '\n';
     }
     std::cout << '\n';
