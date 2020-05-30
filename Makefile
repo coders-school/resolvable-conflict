@@ -1,3 +1,3 @@
-all: src/*.cpp inc/*.hpp
-	g++ -std=c++17 src/*.cpp -Wall -Wextra -pedantic -Wconversion -Werror -o main
+all: src/*.cpp
+	g++ -std=c++17 src/*.cpp -Wall -Wextra -pedantic -Wconversion -Werror -Iinc -o main
 
