@@ -3,7 +3,7 @@
 #include <algorithm>
 
 void print(std::vector<int> const & numbers) {
-    for (unsigned long int i = 0; i < numbers.size(); ++i) {
+    for (std::size_t i = 0; i < numbers.size(); ++i) {
         std::cout << i << ": " << numbers[i] << '\n';
     }
     std::cout << '\n';
