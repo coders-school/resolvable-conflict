@@ -1,4 +1,4 @@
-#include "../inc/functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
+#include "functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
 #include <algorithm>
 #include <iostream>
 #include <limits>
