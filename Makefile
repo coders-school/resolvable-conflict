@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -Werror
+CXXFLAGS = -std=c++17 -Werror -Wall -Wpedantic
 LINKS = -Iinc/
 SRC = src/*.cpp
 INCLUDES = inc/*.hpp
