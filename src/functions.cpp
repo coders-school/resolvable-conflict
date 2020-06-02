@@ -1,4 +1,4 @@
-#include "../inc/functions.hpp"
+#include "functions.hpp"
 #include <iostream>
 #include <algorithm>
 
