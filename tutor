@@ -83,7 +83,7 @@ UWAGA: :q!<ENTER> porzuca wszelkie zmiany jakie zrobiłeś. W następnych
 
   4. Powtarzaj kroki 2. do 4. dopóki zdanie nie jest poprawne.
 
----> Kkrowa prrzeskoczyła prrzez ksiiężycc.
+---> Krowa przeskoczyła przez księżyc.
 
   5. Teraz, kiedy zdanie jest poprawione, przejdź do Lekcji 1.4.
 
@@ -109,7 +109,7 @@ UWAGA: Ucz się przez ćwiczenie, nie wkuwanie.
   4. Po poprawieniu błędu wciśnij <ESC>, by wrócić do trybu Normal.
      Powtarzaj kroki 2. do 4., aby poprawić całe zdanie.
 
----> W tej brkje trochę .
+---> W tej linii brakuje trochę tekstu.
 ---> W tej linii brakuje trochę tekstu.
 
   5. Kiedy czujesz się swobodnie wstawiając tekst, przejdź do
@@ -132,9 +132,9 @@ UWAGA: Ucz się przez ćwiczenie, nie wkuwanie.
   4. Przenieś kursor do drugiej linii oznaczonej ---> i powtórz kroki 2. i 3.,
      aby poprawić zdanie.
 
----> Brakuje tu tro
+---> Brakuje tu trochę tekstu.
      Brakuje tu trochę tekstu.
----> Tu też trochę bra
+---> Tu też trochę brakuje.
      Tu też trochę brakuje.
 
   5. Kiedy już utrwaliłeś ćwiczenie, przejdź do lekcji 1.6.
@@ -203,7 +203,7 @@ Teraz możemy kontynuować i przejść do Lekcji 2.
 	 Jeśli zobaczysz inny znak, oznacza to, że wpisałeś coś źle; wciśnij
 	 <ESC> i zacznij od początku.
 
----> Jest tu parę papier wyrazów, które kamień nie należą do nożyce tego zdania.
+---> Jest tu parę wyrazów, które nie należą do tego zdania.
 
   5. Powtarzaj kroki 3. i 4. dopóki zdanie nie będzie poprawne, potem
   przejdź do Lekcji 2.2.
@@ -222,7 +222,7 @@ Teraz możemy kontynuować i przejść do Lekcji 2.
 
   4. Wpisz  d$  aby usunąć resztę linii.
 
----> Ktoś wpisał koniec tego zdania dwukrotnie. zdania dwukrotnie.
+---> Ktoś wpisał koniec tego zdania dwukrotnie.
 
 
   5. Przejdź do Lekcji 2.3., by zrozumieć co się stało.
@@ -294,7 +294,7 @@ UWAGA: Wpisanie tylko ruchu w trybie Normal bez operatora przeniesie kursor
   3. Powtarzaj kroki 1. i 2. z innymi mnożnikami, aby usunąć kolejne wyrazy
      KAPITALIKAMI jednym poleceniem
 
----> ta ASD WE linia QWE ASDF ZXCV FG wyrazów została ERT FGH CF oczyszczona.
+---> ta linia wyrazów została oczyszczona.
 
 UWAGA:  Mnożnik pomiędzy operatorem  d  i ruchem działa podobnie do ruchu bez
         operatora.
@@ -315,10 +315,7 @@ UWAGA:  Mnożnik pomiędzy operatorem  d  i ruchem działa podobnie do ruchu bez
   4. Wpisz  2dd  aby usunąć dwa wiersze.
 
 --->  1)  Róże są czerwone,
---->  2)  Błoto jest fajne,
 --->  3)  Fiołki są niebieskie,
---->  4)  Mam samochód,
---->  5)  Zegar podaje czas,
 --->  6)  Cukier jest słodki,
 --->  7)  I ty też.
 
@@ -340,7 +337,7 @@ UWAGA:  Mnożnik pomiędzy operatorem  d  i ruchem działa podobnie do ruchu bez
   7. Teraz wpisz CTRL-R (trzymaj równocześnie wciśnięte klawisze CTRL i R)
      kilka razy, by cofnąć cofnięcia.
 
----> Poopraw błędyyy w teej liniii i zaamiień je prrzez coofnij.
+---> Popraw błędy w tej lini i zamień je przez cofnij.
 
   8. To są bardzo pożyteczne polecenia.
 
@@ -386,10 +383,10 @@ UWAGA:  Mnożnik pomiędzy operatorem  d  i ruchem działa podobnie do ruchu bez
 
   5. Powtarzaj kroki 2. do 4. aż znajdą się w odpowiednim porządku.
 
----> d) Jak dwa aniołki.
+---> a) Na górze róże,
 ---> b) Na dole fiołki,
 ---> c) A my się kochamy,
----> a) Na górze róże,
+---> d) Jak dwa aniołki.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -406,7 +403,7 @@ UWAGA:  Mnożnik pomiędzy operatorem  d  i ruchem działa podobnie do ruchu bez
 
   4. Powtarzaj kroki 2. i 3. dopóki pierwsza linia nie będzie taka, jak druga.
 
---->  Kjedy ten wiersz bił wstókiwany, ktoś wciznął perę złych klawirzy!
+--->  Kiedy ten wiersz był wstukiwany, ktoś wcisnął parę złych klawirzy!
 --->  Kiedy ten wiersz był wstukiwany, ktoś wcisnął parę złych klawiszy!
 
   5. Teraz czas na Lekcję 3.3.
@@ -431,7 +428,7 @@ UWAGA: Pamiętaj, by uczyć się ćwicząc, a nie pamięciowo.
   5. Powtarzaj kroki 3. i 4. dopóki pierwsze zdanie nie będzie takie same,
      jak drugie.
 
----> Ta lunos ma pire słów, które tżina zbnic użifajonc pcmazu zmień.
+---> Ta linia ma parę słów, które trzeba zmienić używając polecenia zmień.
 ---> Ta linia ma parę słów, które trzeba zmienić używając polecenia zmień.
 
   Zauważ, że  ce  nie tylko zamienia wyraz, ale także zmienia tryb na
@@ -456,7 +453,7 @@ UWAGA: Pamiętaj, by uczyć się ćwicząc, a nie pamięciowo.
 
   5. Wpisz  c$ , popraw koniec wiersza i wciśnij <ESC>.
 
----> Koniec tego wiersza musi być poprawiony, aby wyglądał tak, jak drugi.
+---> Koniec tego wiersza musi być poprawiony używając polecenia  c$ .
 ---> Koniec tego wiersza musi być poprawiony używając polecenia  c$ .
 
 UWAGA:  Możesz używać <BS> aby poprawiać błędy w czasie pisania.
@@ -567,7 +564,7 @@ Uwaga: Ta funkcja jest bardzo użyteczna w debuggowaniu programu
   3. Teraz wpisz  :s/czaas/czas/g  . Dodane  g  oznacza zamianę (substytucję)
      globalnie w całej linii.  Zmienia wszystkie wystąpienia 'czaas' w linii.
 
----> Najlepszy czaas na zobaczenie najładniejszych kwiatów to czaas wiosny.
+---> Najlepszy czas na zobaczenie najładniejszych kwiatów to czas wiosny.
 
   4. Aby zmienić wszystkie wystąpienia łańcucha znaków pomiędzy dwoma liniami,
      wpisz: :#,#s/stare/nowe/g gdzie #,# są numerami linii ograniczających
