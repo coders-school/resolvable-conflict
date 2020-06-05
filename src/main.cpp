@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "../inc/functions.hpp"  // TODO: add proper compilation flag and change to #include "functions.hpp"
+#include "functions.hpp"  // TODO: add proper compilation flag and change to #include "functions.hpp"
 
 int main() {
     std::vector<int> numbers = {142, 41, 42, 13, 0, -14, 5};
