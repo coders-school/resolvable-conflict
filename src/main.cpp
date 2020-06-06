@@ -9,6 +9,9 @@ int main() {
     print(numbers);
     auto minimum = min(numbers);
     std::cout << "Minimum: " << minimum << '\n';
+    reverse(numbers);
+    print(numbers);
+
     
     return 0;
 }
