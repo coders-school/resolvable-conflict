@@ -82,7 +82,7 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
   5. Now that the line is correct, go on to lesson 1.4.
 
@@ -106,7 +106,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
+---> There is some text missing from this line.
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to lesson 1.5.
@@ -129,9 +129,9 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. Move the cursor to the second line marked ---> and repeat
      steps 2 and 3 to correct this sentence.
 
----> There is some text missing from th
+---> There is some text missing from this line.
      There is some text missing from this line.
----> There is also some text miss
+---> There is also some text missing here.
      There is also some text missing here.
 
   5. When you are comfortable appending text move to lesson 1.6.
@@ -747,7 +747,7 @@ NOTE:  You can also read the output of an external command.  For example,
 
   5. Use  e  to move to the next incomplete word and repeat steps 3 and 4.
 
----> This li will allow you to pract appendi text to a line.
+---> This line will allow you to practice appending text to a line.
 ---> This line will allow you to practice appending text to a line.
 
 NOTE:  a, i and A all go to the same Insert mode, the only difference is where
@@ -770,7 +770,7 @@ NOTE:  a, i and A all go to the same Insert mode, the only difference is where
 
   4. Repeat the steps to replace the remaining xxx.
 
----> Adding 123 to xxx gives you xxx.
+---> Adding 123 to 456 gives you 579.
 ---> Adding 123 to 456 gives you 579.
 
 NOTE:  Replace mode is like Insert mode, but every typed character deletes an
