@@ -312,10 +312,7 @@ NOTE:  Pressing just the motion while in Normal dmod will
   4. Type   2dd   to delete two lines.
 
 --->  1)  Roses are red,
---->  2)  Mud is fun,
 --->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
 --->  6)  Sugar is sweet
 --->  7)  And so are you.
 
@@ -336,7 +333,7 @@ NOTE:  Pressing just the motion while in Normal dmod will
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace themRRRtth undo.
+---> Fix the errors on this line and replace them undo.
 
   8. These are very useful commands.  Now move on to the lesson 2 Summary.
 
@@ -428,7 +425,7 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This line has a few words that need changing usf the change operator.
+---> This line has a few words that need changing using the change operator.
 ---> This line has a few words that need changing using the change operator.
 
 Notice that  ce  deletes the word and places you in Insert mode.
@@ -453,7 +450,7 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
   5. Type  c$  and type the rest of the line like the second and press <ESC>.
 
----> The end of this line needs some help to make it like the second.
+---> The end of this line needs to be corrected using the  c$  command.
 ---> The end of this line needs to be corrected using the  c$  command.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.
@@ -564,7 +561,7 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
   3. Now type  :s/thee/the/g .  Adding the  g  flag means to substitute
      globally in the line, change all occurrences of "thee" in the line.
 
----> thee best time to see thee flowers is in thee spring.
+---> the best time to see the flowers is in the spring.
 
   4. To change every occurrence of a character string between two lines,
      type   :#,#s/old/new/g    where #,# are the line numbers of the range
