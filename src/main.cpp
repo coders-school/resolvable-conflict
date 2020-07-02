@@ -11,7 +11,6 @@ int main() {
     std::cout << "Minimum: " << minimum << '\n';
     reverse(numbers);
     print(numbers);
-    std::cout << "alaaaaaa" << '\n';
 
     return 0;
 }
