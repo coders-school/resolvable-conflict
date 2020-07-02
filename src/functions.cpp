@@ -3,11 +3,17 @@
 #include <iostream>
 #include <limits>
 
+void reverse(std::vector<int> & reverseVector) {
+    std::cout << '\n';
+    std::reverse(begin(reverseVector), end(reverseVector));
+}
+
 void print(std::vector<int> const & numbers) {
     for (int i = 0; i < numbers.size(); ++i) {
         std::cout << i << ": " << numbers[i] << '\n';
     }
     std::cout << '\n';
+
 }
 
 void sort(std::vector<int> & unsorted) {
