@@ -1,3 +1,3 @@
 all: src/*.cpp inc/*.hpp
-	g++ -std=c++17 -I./inc src/*.cpp -o main
+	g++ -std=c++17 -Werror -I./inc src/*.cpp -o main
 
