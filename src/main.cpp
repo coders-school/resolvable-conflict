@@ -7,13 +7,10 @@ int main() {
     print(numbers);
     sort(numbers);
     print(numbers);
-<<<<<<< HEAD:src/main.cpp
-    auto minimum = min(numbers);
+    int minimum = min(numbers);
     std::cout << "Minimum: " << minimum << '\n';
-=======
     reverse(numbers);
     print(numbers);
->>>>>>> reverse:main.cpp
     
     return 0;
 }
