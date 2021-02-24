@@ -4,8 +4,10 @@
 #include <limits>
 
 void print(std::vector<int> const & numbers) {
-    for (int i = 0; i < numbers.size(); ++i) {
-        std::cout << i << ": " << numbers[i] << '\n';
+    auto ite = 1;
+    for (const auto i : numbers) {
+        std::cout << ite << ": " << i << '\n';
+        ite++;
     }
     std::cout << '\n';
 }
