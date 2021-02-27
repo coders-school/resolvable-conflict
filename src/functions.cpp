@@ -1,11 +1,13 @@
-#include "../inc/functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
+#include "functions.hpp"
 #include <algorithm>
 #include <iostream>
 #include <limits>
 
 void print(std::vector<int> const & numbers) {
-    for (int i = 0; i < numbers.size(); ++i) {
-        std::cout << i << ": " << numbers[i] << '\n';
+    auto ite = 1;
+    for (const auto i : numbers) {
+        std::cout << ite << ": " << i << '\n';
+        ite++;
     }
     std::cout << '\n';
 }
@@ -22,5 +24,9 @@ int min(std::vector<int> const & values) {
         }
     }
     return minimum;
+}
+
+void reverse(std::vector<int> & data) {
+    std::reverse(begin(data), end(data));
 }
 
